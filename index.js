@@ -1,18 +1,18 @@
 const rulesBtn = document.getElementById("rules-btn");
 const rulesContainer = document.getElementById("rules-box");
-const middleContainer = document.getElementById("homepagecontainer-main") const playerScoreEl = document.getElementById(
-  'player-score');
+const middleContainer = document.getElementById("homepagecontainer-main"); 
+const playerScoreEl = document.getElementById('player-score');
 const computerScoreEl = document.getElementById('computer-score');
-const userChoices = document.querySelectorAll('.choice') const homePageElement = document.getElementById(
-  "homepagecontainer-main");
+const userChoices = document.querySelectorAll('.choice');
+const homePageElement = document.getElementById("homepagecontainer-main");
 const playerWonElement = document.querySelector(".playerwon-mainclass");
 const computerWonElement = document.querySelector(".computerwon-mainclass");
 const TieElement = document.querySelector(".tie-mainclass");
 const rulesHide = document.querySelector('.rules-hide');
-let playerScore = 0
-let computerScore = 0
-let userOption = ""
-let computerOption = ""
+let playerScore = 0;
+let computerScore = 0;
+let userOption = "";
+let computerOption = "";
 let icons = {
   'rock': 'https://img.icons8.com/ios/50/angry-fist.png',
   'paper': 'https://img.icons8.com/glyph-neue/64/stop-gesture.png',
